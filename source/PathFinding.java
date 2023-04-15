@@ -103,9 +103,8 @@ public class PathFinding {
 				int x = r.nextInt(cells);
 				int y = r.nextInt(cells);
 				current = map[x][y];	//FIND A RANDOM NODE IN THE GRID
-			} while(current.getType()==2);	//IF IT IS ALREADY A WALL, FIND A NEW ONE
-			current.setType(2);	//SET NODE TO BE A WALL
-		}
+			} while(current.getType()==2);	//IF ITs ALREADY A WALL, FIND A NEW ONE
+			current.setType(2);	//SET NODE 		}
 	}
 	
 	public void clearMap() {	//CLEAR MAP
@@ -300,10 +299,7 @@ public class PathFinding {
 		creditB.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(frame, "	                         Pathfinding\n"
-												   + "             Copyright (c) 2017-2018\n"
-												   + "                         Greer Viau\n"
-												   + "          Build Date:  March 28, 2018   ", "Credit", JOptionPane.PLAIN_MESSAGE, new ImageIcon(""));
+				JOptionPane.showMessageDialog(frame, ""+ "" + ""+ " ", "", JOptionPane.PLAIN_MESSAGE, new ImageIcon(""));
 			}
 		});
 		
